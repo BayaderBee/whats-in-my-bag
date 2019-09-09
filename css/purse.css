@@ -1,0 +1,83 @@
+body {
+    background-color: #faf2f3;
+    font-family: 'Amatic SC', cursive;
+
+}
+  .item {
+    font-size: 30px;
+    text-align: center;
+  }
+  .column {
+    width: 100px;
+    height: 70%;
+    display: table;
+  }
+  img {
+      max-width: 150px;
+  }
+
+  .second {
+      max-height: 100px;
+  }
+  .sunglasses {
+    max-height: 120px;
+  }
+
+  .item:nth-child(4) img {
+    animation-duration: 1s;
+  }
+
+  .item:nth-child(3) img {
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+  }
+
+  .item:nth-child(2) img{
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+  }
+
+  .item:nth-child(1) img{
+    animation-duration: 1s;
+    animation-delay: 0.75s;
+  }
+
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 30px;
+    width: max-content;
+    height: max-content;
+  }
+
+ h1 {
+     text-align: center;
+     padding: 10px;
+     font-size: 60px; 
+     color: #e4a2aa;
+ }
+
+  .imgBag {
+ 
+    width: auto;
+
+  }
+
+
+ 
+  .smallTitle {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  h2 {
+    font-size: 40px; 
+    text-align: center;
+    color: #aeaeae;
+    font-family: 'Reenie Beanie', cursive;
+  }
+

@@ -1,5 +1,5 @@
 body {
-    background-color: #faf2f3;
+    background-color: #f2fcfc;
     font-family: 'Amatic SC', cursive;
 
 }
@@ -18,9 +18,6 @@ body {
 
   .second {
       max-height: 100px;
-  }
-  .sunglasses {
-    max-height: 120px;
   }
 
   .item:nth-child(4) img {
@@ -56,16 +53,12 @@ body {
      text-align: center;
      padding: 10px;
      font-size: 60px; 
-     color: #e4a2aa;
+     color: #8fbac4;
  }
 
   .imgBag {
- 
     width: auto;
-
   }
-
-
  
   .smallTitle {
     display: table;
@@ -81,3 +74,35 @@ body {
     font-family: 'Reenie Beanie', cursive;
   }
 
+  .back {
+    font-size: 20px;
+    background-color:#8fbac4;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: none;
+  }
+  
+  .back:hover {
+    background-color:#6a868c;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f2fcfc;
+  }
+
+  #copyright {
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    color: #8fbac4;
+    }
+
+    #about-p {
+      font-family: sans-serif;
+      color: grey;
+      font-size: 16px;
+      text-align: center;
+    }
